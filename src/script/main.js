@@ -964,7 +964,7 @@
 			let post_view_count = $('#post_view_count').text() //阅读数
 			if (window.location.href.indexOf('articles') === -1) {
 				var header =
-						`<p class="entry-census"><span><a href="https://www.cnblogs.com/zouwangblog/"><img src="//pic.cnblogs.com/face/1646268/20190628143903.png"></a></span><span><a href="https://www.cnblogs.com/zouwangblog/">Toretto</a></span><span class="bull">·</span>${post_date}<span class="bull">·</span>${post_view_count} 次阅读</p>`;
+						`<p class="entry-census"><span><a href="https://www.cnblogs.com/xuqicheng/"><img src="https://gitee.com/lovelyemperor/xuqicheng/raw/master/img1/14.jpg"></a></span><span><a href="https://www.cnblogs.com/xuqicheng/">染指了谁的昨天</a></span><span class="bull">·</span>${post_date}<span class="bull">·</span>${post_view_count} 次阅读</p>`;
 				$('.pattern-header').append(header)
 				$('.pattern-center').addClass('single-center')
 				$('.pattern-header').addClass('single-header')
